@@ -1,4 +1,4 @@
-import Registration from '../model/registrationModel'
+import Registration from '../model/registrationModel.js'
 
 export const register = async (req, res) => {
     try {

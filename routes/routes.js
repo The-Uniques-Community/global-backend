@@ -1,4 +1,4 @@
-import {register} from '../controller/registerController'
+import {register} from '../controller/registerController.js'
 import express from 'express';
 
 const router = express.Router();
