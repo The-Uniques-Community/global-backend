@@ -17,10 +17,8 @@ app.use("/api", router);
 app.get("/", (req, res) => {
     res.send("Agge dekh chlta ban");
 });
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-}
-);
+
+export default app;
 
 
 
