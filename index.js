@@ -12,7 +12,9 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 app.use("/api", router);
-
+app.get('/', (req, res) => {
+  res.send('hello world')
+})
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 }
